@@ -1,0 +1,24 @@
+/*
+<!-- font transformation inspiration https://www.w3schools.com/css/css_font.asp -->
+*/
+
+.monospace{
+
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header{
+
+    color: maroon;
+    text-align: center;
+}
+
+#game{
+
+    color: maroon;
+    text-align: center;
+}
+
+
+

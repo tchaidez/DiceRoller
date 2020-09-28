@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-</head>
-<body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <!-- Inspiration for header  https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1 --> 
+
+    <link rel="stylesheet" href="DiceRoller.css">
+
+    <script src= "DiceRoller.js">  </script>
+
+
+</head>
+
+<!-- onload ability discovered at https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onload  -->
+
+<body onload="firstExecution()">
+
+    <!-- serif help below https://www.w3schools.com/css/css_font.asp -->
+
+
+    <h1 id="header" class="monospace">
+        Yahtzee Rolling Preface:
+    </h1>
+
+    <p id="game" class="monospace">
+
+        No game functionality has been implemented, just the rolling of five dice<br>
+        Roll each of the 5 dice
+
+    </p>
+
+    <!-- Code Below inspired by Eric Pogue's potpourri.html -->
+
+
+    <p></p>
+    
+    <button type="button" autofocus onclick="RollDice1()">Roll Dice #1 </button>
+
+    <p></p>
+
+    Dice 1: <input id="dice1" type="text" value="" size="5" disabled>
+
+    <p></p>
+    
+    <button type="button" autofocus onclick="RollDice2()">Roll Dice #2 </button>
+
+    <p></p>
+
+    Dice 2: <input id="dice2" type="text" value="" size="5" disabled>
+
+    <p></p>
+    
+    <button type="button" autofocus onclick="RollDice3()">Roll Dice #3 </button>
+
+    <p></p>
+
+    Dice 3: <input id="dice3" type="text" value="" size="5" disabled>
+
+    <p></p>
+    
+    <button type="button" autofocus onclick="RollDice4()">Roll Dice #4 </button>
+
+    <p></p>
+
+    Dice 4: <input id="dice4" type="text" value="" size="5" disabled>
+
+    <p></p>
+    
+    <button type="button" autofocus onclick="RollDice5()">Roll Dice #5 </button>
+
+    <p></p>
+
+    Dice 5: <input id="dice5" type="text" value="" size="5" disabled>
+
+    <script>
+
+        function firstExecution(){
+
+            RollDice1();
+            RollDice2();
+            RollDice3();
+            RollDice4();
+            RollDice5();
+
+        }
+
+    </script>
+
 
 </body>
 </html>
