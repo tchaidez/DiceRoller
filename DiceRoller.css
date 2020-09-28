@@ -8,6 +8,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*
+CSS Selectors
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_id
+
+*/
+
 #header{
 
     color: maroon;
